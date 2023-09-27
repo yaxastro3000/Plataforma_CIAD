@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose the port the app runs on
-EXPOSE 8050
+EXPOSE 8080
 
 # Define the command to run your application
 CMD ["python", "DashVM.py"]
